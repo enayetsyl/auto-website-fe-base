@@ -1,11 +1,21 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+import Navbar from './component/Navbar';
+import Home from './pages/Home';
+import About from './pages/About';
+import Contact from './pages/Contact';
 
 function App() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-primary text-white">
-      <h1 className="text-4xl font-bold">Welcome to My React App</h1>
-      <p className="mt-4 text-secondary">This is a sample project using Vite, React, and Tailwind CSS.</p>
-    </div>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </Router>
   );
 }
 
