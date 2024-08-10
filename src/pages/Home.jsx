@@ -2,7 +2,7 @@ import React from 'react'
 import Hero from '../component/Hero'
 import Features from '../component/Features'
 import AboutUs from '../component/AboutUs'
-import Testimonials from '../component/Testimonial'
+import Testimonials from '../component/Testimonials'
 import CallToAction from '../component/CallToAction'
 import Footer from '../component/Footer'
 
