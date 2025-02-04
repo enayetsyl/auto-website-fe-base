@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className="flex justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
-          <img src="https://cc-prod.scene7.com/is/image/CCProdAuthor/mascot-logo-design_P1_900x420?$pjpeg$&jpegSize=200&wid=900" alt="" className="h-12 w-20"/>
+          <img src="https://t3.ftcdn.net/jpg/07/20/39/04/360_F_720390490_exwc0Qw8OkOA0U5tqzhof1afEA4sZKZR.jpg" alt="" className="h-12 w-20"/>
           </div>
 
           {/* Navigation Links */}

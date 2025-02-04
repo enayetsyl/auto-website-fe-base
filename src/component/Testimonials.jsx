@@ -10,21 +10,21 @@ const Testimonials = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="text-center">
             <p className="mt-4 text-base text-textColor">
-              "This service was amazing! I couldn’t have asked for more."
+              "This service was amazing! I couldn't have asked for more. Highly recommend to anyone looking for great quality. Exceptional experience from start to finish!"
             </p>
-            <h3 className="mt-4 text-xl font-semibold text-headerColor">- Customer 1</h3>
+            <h3 className="mt-4 text-xl font-semibold text-headerColor">- Muhammad</h3>
           </div>
           <div className="text-center">
             <p className="mt-4 text-base text-textColor">
-              "Highly recommend to anyone looking for great quality."
+              "Highly recommend to anyone looking for great quality. This service was amazing! I couldn't have asked for more. Exceptional experience from start to finish!"
             </p>
-            <h3 className="mt-4 text-xl font-semibold text-headerColor">- Customer 2</h3>
+            <h3 className="mt-4 text-xl font-semibold text-headerColor">- Abdullah</h3>
           </div>
           <div className="text-center">
             <p className="mt-4 text-base text-textColor">
-              "Exceptional experience from start to finish!"
+              "Exceptional experience from start to finish! Highly recommend to anyone looking for great quality. This service was amazing! I couldn't have asked for more."
             </p>
-            <h3 className="mt-4 text-xl font-semibold text-headerColor">- Customer 3</h3>
+            <h3 className="mt-4 text-xl font-semibold text-headerColor">- Ibrahim</h3>
           </div>
         </div>
       </div>

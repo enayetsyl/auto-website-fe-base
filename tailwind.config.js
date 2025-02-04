@@ -7,12 +7,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        backgroundColor: '#f7f7f7',
-        primary: '#2e86c1',
-        secondary: '#a6acaf',
-        textColor: '#333333',
-        headerColor: '#2CA58D',
-        button: '#1f618d'
+        backgroundColor: '#023047',
+        primary: '#8ecae6',
+        secondary: '#219ebc',
+        textColor: '#ff0000',
+        headerColor: '#ffb703',
+        button: '#fb8500'
       },
     },
   },

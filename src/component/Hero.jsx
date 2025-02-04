@@ -7,7 +7,7 @@ const Hero = () => {
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: `url('https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=1024x1024&w=0&k=20&c=z8_rWaI8x4zApNEEG9DnWlGXyDIXe-OmsAyQ5fGPVV8=')`,
+          backgroundImage: `url('https://t4.ftcdn.net/jpg/05/47/97/81/360_F_547978128_vqEEUYBr1vcAwfRAqReZXTYtyawpgLcC.jpg')`,
           filter: 'brightness(70%)',
           height: '90vh'
         }}
@@ -16,7 +16,7 @@ const Hero = () => {
       {/* Content */}
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 text-center text-white">
         <h1 className="text-4xl font-bold sm:text-5xl lg:text-6xl text-headerColor">
-          Welcome to Our Adventure
+          Welcome to Eco Tourism
         </h1>
         <p className="mt-4 text-lg sm:text-xl lg:text-2xl text-textColor">
           Explore the world with us, where every journey begins with a single step.
