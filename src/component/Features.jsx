@@ -13,22 +13,22 @@ const Features = () => {
             <div className="bg-primary text-white rounded-full w-16 h-16 mx-auto flex items-center justify-center">
               <i className="fas fa-mountain"></i>
             </div>
-            <h3 className="mt-4 text-xl font-semibold text-headerColor">Feature 1</h3>
-            <p className="mt-2 text-base text-textColor">Description of Feature 1.</p>
+            <h3 className="mt-4 text-xl font-semibold text-headerColor">Best Hotel</h3>
+            <p className="mt-2 text-base text-textColor">You will get best hotels for staying during your visit. You get all the comforts in our hotel. All the amenities are included in the package.</p>
           </div>
           <div className="text-center">
             <div className="bg-primary text-white rounded-full w-16 h-16 mx-auto flex items-center justify-center">
               <i className="fas fa-globe"></i>
             </div>
-            <h3 className="mt-4 text-xl font-semibold text-headerColor">Feature 2</h3>
-            <p className="mt-2 text-base text-textColor">Description of Feature 2.</p>
+            <h3 className="mt-4 text-xl font-semibold text-headerColor">Car Service</h3>
+            <p className="mt-2 text-base text-textColor">We have a pool of cars. All the cars are brand new and comfortable. The price are reasonable.</p>
           </div>
           <div className="text-center">
             <div className="bg-primary text-white rounded-full w-16 h-16 mx-auto flex items-center justify-center">
               <i className="fas fa-hiking"></i>
             </div>
-            <h3 className="mt-4 text-xl font-semibold text-headerColor">Feature 3</h3>
-            <p className="mt-2 text-base text-textColor">Description of Feature 3.</p>
+            <h3 className="mt-4 text-xl font-semibold text-headerColor">Guide Service</h3>
+            <p className="mt-2 text-base text-textColor">We have experience guide available who can show you all the interesting places within a short time.</p>
           </div>
         </div>
       </div>
