@@ -1,13 +1,13 @@
 import React from 'react';
 
-const Hero = () => {
+const Hero = ({heroHeading, heroText, heroImage}) => {
   return (
     <div className="relative bg-primary ">
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: `url('https://t4.ftcdn.net/jpg/05/47/97/81/360_F_547978128_vqEEUYBr1vcAwfRAqReZXTYtyawpgLcC.jpg')`,
+          backgroundImage: `url(${heroImage})`,
           filter: 'brightness(70%)',
           height: '90vh'
         }}
@@ -16,10 +16,10 @@ const Hero = () => {
       {/* Content */}
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 text-center text-white">
         <h1 className="text-4xl font-bold sm:text-5xl lg:text-6xl text-headerColor">
-          Welcome to Eco Tourism
+          {heroHeading}
         </h1>
         <p className="mt-4 text-lg sm:text-xl lg:text-2xl text-textColor">
-          Explore the world with us, where every journey begins with a single step.
+          {heroText}
         </p>
         <div className="mt-8">
           <a

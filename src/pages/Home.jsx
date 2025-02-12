@@ -9,7 +9,11 @@ import Footer from '../component/Footer'
 const Home = () => {
   return (
     <div>
-      <Hero/>
+      <Hero
+      heroHeading="Welcome"
+      heroText="Explore the world with us, where every journey begins with a single step."
+      heroImage="https://t4.ftcdn.net/jpg/05/47/97/81/360_F_547978128_vqEEUYBr1vcAwfRAqReZXTYtyawpgLcC.jpg"
+      />
       <Features/>
       <AboutUs/>
       <Testimonials/>
